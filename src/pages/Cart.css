@@ -1,0 +1,138 @@
+h4{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    margin-right: 76px;
+    
+}
+.cartWrapper {
+  
+  padding: 5px;
+  font-size: 24px;
+}
+
+.cartimg {
+  width: 100px;
+  height: 100px;
+}
+.cartCard {
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+}
+
+.card-descriptions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100px;
+}
+
+.btnn {
+  border: none;
+  outline: none;
+  background: red;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 20px;
+}
+
+
+@media screen and (max-width: 1030px) {
+  h4 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .cartimg {
+    width: 50px;
+    height: 50px;
+  }
+  .btnn {
+  border: none;
+  outline: none;
+  background: red;
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+}
+
+  
+.cartCard {
+    gap: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+}
+
+.card-descriptions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50px;
+}
+.cartWrapper {
+  
+  padding: 5px;
+  font-size: 15px;
+}
+}
+@media screen and (max-width: 1030px){
+  h4 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .cartimg {
+    width: 50px;
+    height: 50px;
+  }
+  .btnn {
+  border: none;
+  outline: none;
+  background: red;
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+}
+
+  
+.cartCard {
+    gap: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+}
+
+.card-descriptions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50px;
+}
+.cartWrapper {
+  
+  padding: 5px;
+  font-size: 15px;
+}
+
+}
